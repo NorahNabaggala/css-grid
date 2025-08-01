@@ -1,0 +1,49 @@
+.grid-container{
+    border: 2px dashed rgb(180, 48, 48);
+    min-height:400px ;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 150px 1fr 150px;
+    grid-template-rows: 50px 1fr 60px;
+
+}
+
+.grid-item {
+    border: 1px solid rebeccapurple;
+    padding:20px ;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+  
+}
+.item-1{
+    background-color: aquamarine;
+    grid-column: 1 / span 3;
+      grid-row: 1/ 2;
+}
+.item-2{
+    background-color: aqua;
+    grid-column: 1/  2;
+    grid-row: 2/3;
+    
+}
+.item-3{
+    background-color: rgb(148, 148, 21);
+    grid-template-columns: 2/3;
+    grid-row: 2/3;
+}
+.item-4{
+    background-color: rgb(117, 224, 117);
+    grid-column: 3/ 4;
+    grid-row: 2/3;
+}
+.item-5{
+    background-color: rgb(157, 31, 86);
+  
+}
+.item-6{
+    background-color: blueviolet;
+    grid-column: 1/ span 3;
+    grid-row: 3/4;
+
+}
